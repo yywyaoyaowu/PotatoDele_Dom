@@ -1,0 +1,1 @@
+The input consists of three files: a whole genome VCF file named DP4_100.GQ10.Q30.MR0.5.maf0.0001.recode.vcf, a VCF file for selective region named dom.Filter0.0001.vcf.gz, and a VCF file for non-selective regions (control) named NotDom.Filter0.0001.vcf.gz.

@@ -1,0 +1,1 @@
+The input file Sol_msa_ConstraintedGERP2_withDepth_withMajorAllele_chr{01..12}.txt contains sites with GERP scores greater than or equal to two, along with the MajorAllele and MajorAlleleCount information for these sites across 100 Solanaceae species. The Inbred_list includes only A6-26 and E4-63.
