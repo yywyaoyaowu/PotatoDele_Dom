@@ -1,4 +1,4 @@
-Population genetic analyses
+# Population genetic analyses
 
 05_tree: maximum-likelihood phylogenetic tree constructe by 4-fold degenerate sites (4d-SNPs) using IQ-TREE 
 06_LD: Linkage disequilibrium (LD) decay was analyzed using PopLDdecay
