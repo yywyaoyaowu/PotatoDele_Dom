@@ -6,4 +6,4 @@ Population genetic analyses
 08_PCA: Principal component analysis (PCA) using PLINK
 09_diversity: genome-wide scan of nucleotide diversity (π) using VCFtools
 10_Recombination: infer recombination rates from genetic variation data using ReLERNN
-plot: 
+plot: other plot
