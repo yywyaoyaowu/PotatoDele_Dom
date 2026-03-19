@@ -1,0 +1,1 @@
+bash ReLERNN.sh Lan_chr01_output Lan_chr01.snp.recode.vcf Solanum_tuberosumDM_chr01.bed

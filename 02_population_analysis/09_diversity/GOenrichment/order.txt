@@ -1,0 +1,13 @@
+hexose metabolic process
+cysteine metabolic process
+cysteine biosynthetic process
+cysteine biosynthetic process from serine
+monosaccharide metabolic process
+lipid transport
+lipid localization
+plant-type cell wall biogenesis
+plant-type cell wall assembly
+cell wall assembly
+cellulose microfibril organization
+extracellular matrix organization
+extracellular structure organization
