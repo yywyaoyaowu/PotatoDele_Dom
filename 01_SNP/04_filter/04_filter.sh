@@ -26,7 +26,7 @@ gatk VariantFiltration -V chr${i}.combined.snp.vcf.gz --filter-expression \"QD <
 
 awk '/^#/||\$7==\"PASS\"' chr${i}.combined.snp.filter.vcf > chr${i}.combined.snp.hardfilter.vcf
 
-/public/software/env01/bin/vcftools --vcf chr${i}.combined.snp.hardfilter.vcf --minDP 4 --maxDP 100 --minGQ 10 --minQ 30 --max-missing 0.5 --min-alleles 2 --max-alleles 2 --recode --maf 0.001 --recode-INFO-all --out chr${i}.DP4_100.GQ10.Q30.MR0.5.maf0.001
+/public/software/env01/bin/vcftools --vcf chr${i}.combined.snp.hardfilter.vcf --minDP 4 --maxDP 100 --minGQ 10 --minQ 30 --max-missing 0.5 --min-alleles 2 --max-alleles 2 --recode --maf 0.0001 --recode-INFO-all --out chr${i}.DP4_100.GQ10.Q30.MR0.5.maf0.0001
 
 #gatk SelectVariants -select-type INDEL -V chr${i}.combined.vcf -O chr${i}.combined.indel.vcf.gz
 #gatk VariantFiltration -V chr${i}.combined.indel.vcf.gz --filter-expression \"QD < 2.0\" --filter-name \"LowQD\" --filter-expression \"MQ < 40.0\" --filter-name \"MQ40.0\" --filter-expression \"FS > 200.0\" --filter-name \"FS200\" --filter-expression \"SOR > 10.0\" --filter-name \"SOR10\" --filter-expression \"MQRankSum < -12.5\" --filter-name \"MQRankSum-12.5\" --filter-expression \"ReadPosRankSum < -8.0\" --filter-name \"ReadPosRankSum-8.0\" -O chr${i}.combined.indel.filter.vcf
