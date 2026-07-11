@@ -1,5 +1,6 @@
 # PotatoDele_Dom
-Analysis of progenitor genomes offers insights to reduce deleterious burden in hybrid potato breeding
+**This repository holds the scripts which are associated with the publication "Analysis of progenitor genomes offers insights to reduce deleterious burden in hybrid potato breeding".**  
+**Sequence data that support the findings of this study have been deposited in the SRA under PRJNA1390486.**  
 
 01_SNP: variant calling
 
