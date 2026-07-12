@@ -1,3 +1,4 @@
 09_diversity.sh: Identification of selective sweep regions using vcftools.
+GOenrichment: GOenrichment of genes in selective sweep regions.
 Pi_wholeGenome.R: Whole genome pi plot in group.
 plot.R: geom_boxplot of group
