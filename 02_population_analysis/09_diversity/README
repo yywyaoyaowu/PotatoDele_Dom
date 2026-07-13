@@ -1,5 +1,6 @@
 ## Nucleotide Diversity (π) Analysis
-Genome-wide nucleotide diversity (π) was calculated for three distinct populations (Landrace, total *Candolleanum*, and previous *Candolleanum*) using VCFtools. Analyses were performed independently for each chromosome with a 100-kb sliding window advancing in 10-kb steps (`--window-pi 100000 --window-pi-step 10000`). This approach allowed for the characterization of genetic diversity distribution and the identification of regions under selection or demographic influence across the potato genome.
+Genome-wide nucleotide diversity (π) was calculated for three distinct populations (Landrace, total Candolleanum, and previous Candolleanum) using VCFtools. Analyses were performed independently for each chromosome with a 100-kb sliding window advancing in 10-kb steps (`--window-pi 100000 --window-pi-step 10000`). This approach allowed for the characterization of genetic diversity distribution and the identification of regions under selection or demographic influence across the potato genome.
+
 09_diversity.sh: Identification of selective sweep regions using vcftools.
 GOenrichment: GOenrichment of genes in selective sweep regions.
 Pi_wholeGenome.R: Whole genome pi plot in group.
