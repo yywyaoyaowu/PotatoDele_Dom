@@ -1,2 +1,4 @@
-## Population Stratification (PCA)
-Principal Component Analysis was performed using PLINK on the filtered SNP dataset (MAF ≥ 0.05) to visualize population structure. We extracted the top 338 principal components to capture fine-scale genetic variation. Sample identifiers in the PLINK output were replaced with biologically relevant group names (e.g., Landrace, *Candolleanum*) using a metadata mapping file (`sample_info`). The final eigenvector matrix was formatted with appropriate headers (PC1–PC338) and tab-separated values to facilitate visualization using tools such as ggplot2 or matplotlib.
+## Principal Component Analysis (PCA)
+Principal Component Analysis was performed using PLINK on the filtered SNP dataset (MAF ≥ 0.05) to visualize population structure. We extracted the top 502 principal components to capture fine-scale genetic variation. The final eigenvector matrix was formatted with appropriate headers (PC1–PC502) and tab-separated values to facilitate visualization.
+eigenvec_plot.R: plot eigenvector matrix 
+eigenval_plot.R: plot eigenvalue matrix 
