@@ -8,7 +8,6 @@ library(viridis)
 library(dplyr)
 library(phylogram)
 
-setwd("~/文件/马铃薯重测序-有害突变/dom_del_final/07_structure")
 me_tree <- read.tree("DP4_100.GQ10.Q30.MR0.5.maf0.001.anno.4dTv.min4.increaseNode.newick")
 label <- rev(me_tree$tip.label)
 write.table(label, "sortName.txt", quote = F, row.names = F)
