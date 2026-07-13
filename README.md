@@ -4,7 +4,7 @@
 
 01_SNP: Alignment of reads and variant calling, variant calling using the GATK best practices workflow.
 
-02_population_analysis: phylogenetic relationships, linkage disequilibrium (LD), population structure, and principal component analysis (PCA) et al.
+02_population_analysis: phylogenetic relationships, linkage disequilibrium (LD), identification of selective sweep regions, population structure, and principal component analysis (PCA) et al.
 
 03_deleterious_analysis: Identification of deleterious mutations and burden
 
