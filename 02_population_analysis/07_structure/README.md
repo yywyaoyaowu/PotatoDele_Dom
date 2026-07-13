@@ -1,2 +1,3 @@
 ## Population Structure Analysis (ADMIXTURE)
-SNPs were pruned using PLINK (`--indep-pairwise 50 10 0.2`). A pruned set of bi-allelic SNPs (MAF ≥ 0.05) was converted to binary PLINK format. Unsupervised population structure analysis was performed using ADMIXTURE across assumed ancestral populations (K=2 to 15). Each run utilized 10 cores with 10-fold cross-validation to evaluate model fit and determine the optimal K-value.
+07_structure.sh: SNPs were pruned using PLINK (`--indep-pairwise 50 10 0.2`). A pruned set of bi-allelic SNPs (MAF ≥ 0.05) was converted to binary PLINK format. Unsupervised population structure analysis was performed using ADMIXTURE across assumed ancestral populations (K=2 to 15). Each run utilized 10 cores with 10-fold cross-validation to evaluate model fit and determine the optimal K-value.
+structure_plot.R: plot structure results
