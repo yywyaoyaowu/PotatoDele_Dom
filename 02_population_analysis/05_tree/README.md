@@ -1,0 +1,2 @@
+## Variant Annotation & Phylogenetic Analysis
+Functional annotation of filtered SNPs using SnpEff, followed by calculation of four-fold degenerate transversion (4DTV) sites via custom script. Results were aggregated across all 12 chromosomes, converted to PHYLIP format using `vcf2phylip`, and used to construct a maximum-likelihood phylogenetic tree with IQ-TREE (GTR model, 1,000 ultrafast bootstraps).
