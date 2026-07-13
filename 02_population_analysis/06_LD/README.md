@@ -1,2 +1,7 @@
 ## Linkage Disequilibrium (LD) Decay Analysis
-Execution of a multi-step pipeline (`1.sh`, `2.sh`, `3.sh`) to calculate genome-wide LD decay statistics for individual samples. Resulting files are compiled into an input manifest (`LDdecayResult.list`) and used to generate a comparative multi-population LD decay plot via `Plot_MultiPop.pl` from the PopLDdecay toolkit.
+Linkage disequilibrium decay was estimated for three distinct populations: 
+1. Landrace population
+2. Total *Candolleanum* population
+3. Previous *Candolleanum* population
+
+Using PopLDdecay (-MAF 0.05), we calculated pairwise \(r^2\) values for each group. The resulting statistics were compiled and visualized using Plot_MultiPop.pl to compare LD decay patterns across the three genetic backgrounds.
