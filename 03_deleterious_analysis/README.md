@@ -9,3 +9,5 @@
 04 burden: This code is employed to determine the deleterious allele frequencies, deleterious genotypes, and the number of deleterious genotypes per individual across both the CND and Landrace panels.
 
 05 rmBothMajor: This code is applied to perform Fisher's exact tests and to implement partial filtering of deleterious variants. 
+
+06_progenitor-assisted_genome_predict: Progenitor-Assisted Genome Prediction
