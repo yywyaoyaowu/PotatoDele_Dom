@@ -12,4 +12,3 @@
 
 10_Recombination: infer recombination rates from genetic variation data using ReLERNN
 
-plot: other plot
